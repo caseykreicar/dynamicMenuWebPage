@@ -71,6 +71,14 @@ const menu = [
     img: "./images/item-9.jpeg",
     desc: `Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate totam quas minima laudantium deserunt pariatur autem at cupiditate repellendus iste?`,
   },
+  {
+    id: 10,
+    title: "item #9",
+    category: "shakes",
+    price: 99.99,
+    img: "./images/item-9.jpeg",
+    desc: `Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate totam quas minima laudantium deserunt pariatur autem at cupiditate repellendus iste?`,
+  },
 ];
 
 const sectionCenter = document.querySelector(".sectionCenter");
