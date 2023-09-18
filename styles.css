@@ -58,7 +58,7 @@
 body {
   font-family: var(--ff-secondary);
   background: var(--clr-grey-10);
-  background-color: rgb(255,200,190);
+  background-color: rgb(255, 235, 232);
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
@@ -100,7 +100,7 @@ h4 {
 }
 p {
   margin-bottom: 1.25rem;
-  color: var(--clr-grey-5);
+  color: var(--clr-grey-2);
 }
 @media screen and (min-width: 800px) {
   h1 {
@@ -167,7 +167,7 @@ main {
 .underline {
   width: 5rem;
   height: 0.25rem;
-  background: var(--clr-gold);
+  background: var(--clr-red-dark);
   margin-left: auto;
   margin-right: auto;
 }
@@ -209,7 +209,7 @@ main {
 .photo {
   object-fit: cover;
   height: 200px;
-  border: 0.25rem solid var(--clr-gold);
+  border: 0.25rem solid var(--clr-red-dark);
   border-radius: var(--radius);
 }
 .itemInfo header {
@@ -221,9 +221,15 @@ main {
   margin-bottom: 0.5rem;
 }
 .price {
-  color: var(--clr-gold);
+  color: var(--clr-red-dark);
+  animation: blinker 3s linear infinite;
 }
-.item-text {
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+.itemText {
   margin-bottom: 0;
   padding-top: 1rem;
 }
