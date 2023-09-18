@@ -73,10 +73,10 @@ const menu = [
   },
   {
     id: 10,
-    title: "item #9",
+    title: "item #10",
     category: "shakes",
     price: 99.99,
-    img: "./images/item-9.jpeg",
+    img: "./images/item-3.jpeg",
     desc: `Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate totam quas minima laudantium deserunt pariatur autem at cupiditate repellendus iste?`,
   },
 ];
